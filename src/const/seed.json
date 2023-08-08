@@ -1,0 +1,1652 @@
+[
+  {
+    "trip": [
+      {
+        "id": "365befba-12af-4acb-9ed1-95696a15d305",
+        "name": "Beach Getaway",
+        "created_at": "2023-08-07T16:41:58.153Z",
+        "updated_at": "2023-08-07T09:57:01.859Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09c6d2e3-144c-4be1-8372-963c0b9b7c4a",
+        "name": "Mountain Adventure",
+        "created_at": "2023-08-07T14:39:49.414Z",
+        "updated_at": "2023-08-07T21:01:02.540Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecb6603d-d131-4192-8954-af5e644ea718",
+        "name": "City Exploration",
+        "created_at": "2023-08-07T21:20:19.584Z",
+        "updated_at": "2023-08-07T21:30:29.327Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e60f47c6-e568-4b31-93a2-a6e4e0a3c225",
+        "name": "Cultural Immersion",
+        "created_at": "2023-08-07T11:21:16.190Z",
+        "updated_at": "2023-08-07T21:06:12.850Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e535b6f5-a6a7-4413-8ab2-ba4a603a8e70",
+        "name": "Wildlife Safari",
+        "created_at": "2023-08-07T12:47:50.216Z",
+        "updated_at": "2023-08-08T01:24:48.380Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "expense": [
+      {
+        "id": "a3cb40bf-c4df-4b3f-b044-56cc17135c8a",
+        "amount": 23973,
+        "created_at": "2023-08-07T14:25:59.172Z",
+        "updated_at": "2023-08-07T06:53:00.546Z",
+        "trip_id": "e535b6f5-a6a7-4413-8ab2-ba4a603a8e70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "afabd510-d890-43a3-901b-dacf45a01791",
+        "amount": 29087,
+        "created_at": "2023-08-07T08:37:42.271Z",
+        "updated_at": "2023-08-07T22:03:53.884Z",
+        "trip_id": "e535b6f5-a6a7-4413-8ab2-ba4a603a8e70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99bc0875-39f1-4485-9853-8b30240a95c3",
+        "amount": 8032,
+        "created_at": "2023-08-07T19:20:30.316Z",
+        "updated_at": "2023-08-07T09:09:46.502Z",
+        "trip_id": "ecb6603d-d131-4192-8954-af5e644ea718",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db5a114d-86ea-4785-9ab3-5383b8d10285",
+        "amount": 77207,
+        "created_at": "2023-08-07T15:54:04.319Z",
+        "updated_at": "2023-08-08T01:49:04.236Z",
+        "trip_id": "365befba-12af-4acb-9ed1-95696a15d305",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3732e5a9-f1b0-42f2-8905-252b6b221611",
+        "amount": 71806,
+        "created_at": "2023-08-07T08:02:11.156Z",
+        "updated_at": "2023-08-07T03:12:29.484Z",
+        "trip_id": "365befba-12af-4acb-9ed1-95696a15d305",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "bbec6496-6d91-4bbc-be2c-26ccf65c36d5",
+        "name": "Music Festival",
+        "created_at": "2023-08-07T16:36:42.007Z",
+        "updated_at": "2023-08-07T05:20:23.813Z",
+        "trip_id": "09c6d2e3-144c-4be1-8372-963c0b9b7c4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b3853a4-59e4-4802-ab7a-81e673ef131c",
+        "name": "Art Exhibition",
+        "created_at": "2023-08-07T07:45:19.499Z",
+        "updated_at": "2023-08-08T02:26:54.264Z",
+        "trip_id": "e535b6f5-a6a7-4413-8ab2-ba4a603a8e70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e4efd60-90a5-4dfe-a218-df3483eb24f3",
+        "name": "Sports Tournament",
+        "created_at": "2023-08-07T16:28:07.907Z",
+        "updated_at": "2023-08-07T17:39:19.371Z",
+        "trip_id": "e60f47c6-e568-4b31-93a2-a6e4e0a3c225",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b2e519c-37c4-4b50-a16d-dbeed8ab3655",
+        "name": "Charity Gala",
+        "created_at": "2023-08-07T11:25:34.069Z",
+        "updated_at": "2023-08-07T14:55:50.506Z",
+        "trip_id": "ecb6603d-d131-4192-8954-af5e644ea718",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "223a0a16-f459-4a6d-9ae2-3acbc8c8667c",
+        "name": "Tech Conference",
+        "created_at": "2023-08-07T17:38:29.677Z",
+        "updated_at": "2023-08-07T12:40:33.652Z",
+        "trip_id": "e60f47c6-e568-4b31-93a2-a6e4e0a3c225",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "c2d6f6f8-5fe2-4250-95b0-8c370d13c524",
+        "created_at": "2023-08-07T03:20:03.470Z",
+        "updated_at": "2023-08-07T12:27:48.028Z",
+        "trip_id": "09c6d2e3-144c-4be1-8372-963c0b9b7c4a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "508d58e3-8ebd-443e-907b-510e42f9397c",
+        "created_at": "2023-08-07T22:56:57.687Z",
+        "updated_at": "2023-08-07T04:03:55.412Z",
+        "trip_id": "e60f47c6-e568-4b31-93a2-a6e4e0a3c225",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cfbad8f4-3c1c-44d2-a263-c137bcd70460",
+        "created_at": "2023-08-08T02:26:36.986Z",
+        "updated_at": "2023-08-08T00:30:28.623Z",
+        "trip_id": "365befba-12af-4acb-9ed1-95696a15d305",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "576eee32-1120-4e38-8b03-07afb3088831",
+        "created_at": "2023-08-07T13:41:31.306Z",
+        "updated_at": "2023-08-07T02:39:37.834Z",
+        "trip_id": "365befba-12af-4acb-9ed1-95696a15d305",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "384063e1-b020-405e-aa96-1b2216a11374",
+        "created_at": "2023-08-07T12:49:38.893Z",
+        "updated_at": "2023-08-07T12:32:50.349Z",
+        "trip_id": "e535b6f5-a6a7-4413-8ab2-ba4a603a8e70",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "trip": [
+      {
+        "id": "0d66183a-e6dc-4b40-bfae-3b8f8235ace5",
+        "name": "Mountain Adventure",
+        "created_at": "2023-08-07T18:08:56.018Z",
+        "updated_at": "2023-08-07T12:48:39.870Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "711f5e0e-7272-4e31-b9f9-c76ae76d9929",
+        "name": "Beach Getaway",
+        "created_at": "2023-08-08T01:24:30.882Z",
+        "updated_at": "2023-08-07T20:09:10.466Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f17e829-16a5-4068-886f-b424f3de4a65",
+        "name": "City Exploration",
+        "created_at": "2023-08-08T02:04:17.758Z",
+        "updated_at": "2023-08-07T08:03:54.289Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30d192e6-8212-4a95-acf0-5064b0660c50",
+        "name": "Cultural Immersion",
+        "created_at": "2023-08-07T21:44:09.954Z",
+        "updated_at": "2023-08-07T16:05:35.513Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9aeeed62-fc96-4381-aff9-c550e4fe726c",
+        "name": "Wildlife Safari",
+        "created_at": "2023-08-07T20:44:59.464Z",
+        "updated_at": "2023-08-07T17:56:23.569Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "expense": [
+      {
+        "id": "7d05d48d-58a1-4e12-829c-08fee77e163c",
+        "amount": 76960,
+        "created_at": "2023-08-07T16:16:04.941Z",
+        "updated_at": "2023-08-07T20:28:46.761Z",
+        "trip_id": "6f17e829-16a5-4068-886f-b424f3de4a65",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5401de5-60c7-49b9-abd3-6ee08f0068ac",
+        "amount": 57136,
+        "created_at": "2023-08-07T02:42:56.918Z",
+        "updated_at": "2023-08-07T23:32:23.349Z",
+        "trip_id": "9aeeed62-fc96-4381-aff9-c550e4fe726c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b78bfce6-361b-4f94-bea8-0f3bcc27ea11",
+        "amount": 51126,
+        "created_at": "2023-08-08T01:32:14.992Z",
+        "updated_at": "2023-08-07T17:10:36.341Z",
+        "trip_id": "0d66183a-e6dc-4b40-bfae-3b8f8235ace5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ea68b19-7b01-4c6e-b21e-f798294c7ef8",
+        "amount": 63761,
+        "created_at": "2023-08-08T01:55:17.593Z",
+        "updated_at": "2023-08-07T18:39:06.759Z",
+        "trip_id": "6f17e829-16a5-4068-886f-b424f3de4a65",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "373a2ecf-4b0c-4283-a659-3c77aac5937d",
+        "amount": 93456,
+        "created_at": "2023-08-07T16:57:32.106Z",
+        "updated_at": "2023-08-07T12:11:44.197Z",
+        "trip_id": "0d66183a-e6dc-4b40-bfae-3b8f8235ace5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "7be70bda-52d1-4f0b-8c33-7ae2fa74fa51",
+        "name": "Annual Gala",
+        "created_at": "2023-08-07T04:00:58.994Z",
+        "updated_at": "2023-08-07T23:36:55.591Z",
+        "trip_id": "30d192e6-8212-4a95-acf0-5064b0660c50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61f55d0f-39f4-4257-a8fc-a429d38f0477",
+        "name": "Tech Conference",
+        "created_at": "2023-08-08T01:33:07.126Z",
+        "updated_at": "2023-08-07T23:26:35.448Z",
+        "trip_id": "711f5e0e-7272-4e31-b9f9-c76ae76d9929",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f262fce-3e94-4f5c-9f97-396103dbc78e",
+        "name": "Business Summit",
+        "created_at": "2023-08-07T20:54:52.273Z",
+        "updated_at": "2023-08-07T22:09:28.820Z",
+        "trip_id": "0d66183a-e6dc-4b40-bfae-3b8f8235ace5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c3dc54e-863d-48a0-954e-ec6c0668a3a2",
+        "name": "Fashion Show",
+        "created_at": "2023-08-07T17:59:41.259Z",
+        "updated_at": "2023-08-07T19:00:08.649Z",
+        "trip_id": "9aeeed62-fc96-4381-aff9-c550e4fe726c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dfe1ed3-80f5-4711-9765-fa118a6fc587",
+        "name": "Medical Symposium",
+        "created_at": "2023-08-08T02:00:31.633Z",
+        "updated_at": "2023-08-07T22:05:18.250Z",
+        "trip_id": "6f17e829-16a5-4068-886f-b424f3de4a65",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "3041fc9f-1c6b-4a65-83d3-979f0b977809",
+        "created_at": "2023-08-07T08:39:00.390Z",
+        "updated_at": "2023-08-07T13:47:39.130Z",
+        "trip_id": "30d192e6-8212-4a95-acf0-5064b0660c50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57e46c30-01bc-475e-98f1-197bee3d9089",
+        "created_at": "2023-08-07T13:04:41.807Z",
+        "updated_at": "2023-08-07T08:23:42.534Z",
+        "trip_id": "0d66183a-e6dc-4b40-bfae-3b8f8235ace5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2efd5ada-bfe8-40c0-bdd6-743c1902babb",
+        "created_at": "2023-08-08T00:45:13.319Z",
+        "updated_at": "2023-08-07T05:35:04.714Z",
+        "trip_id": "9aeeed62-fc96-4381-aff9-c550e4fe726c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "964c9afc-a976-460d-b103-eee1cd6a1e57",
+        "created_at": "2023-08-08T00:16:37.713Z",
+        "updated_at": "2023-08-08T02:07:03.495Z",
+        "trip_id": "9aeeed62-fc96-4381-aff9-c550e4fe726c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91c8204b-476b-4e21-a8df-f28ebc9dbb89",
+        "created_at": "2023-08-07T18:21:50.437Z",
+        "updated_at": "2023-08-07T09:13:23.175Z",
+        "trip_id": "6f17e829-16a5-4068-886f-b424f3de4a65",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "trip": [
+      {
+        "id": "30e4ad8c-2b8a-46c9-acdb-7e33049edf2e",
+        "name": "Mountain Adventure",
+        "created_at": "2023-08-07T17:12:41.922Z",
+        "updated_at": "2023-08-07T21:19:02.331Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13576b3e-2991-4280-bd86-1b8107e3d4ad",
+        "name": "Beach Getaway",
+        "created_at": "2023-08-07T15:10:55.404Z",
+        "updated_at": "2023-08-07T15:16:20.972Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "834076e2-edaf-4195-bf30-3c5203042efe",
+        "name": "City Exploration",
+        "created_at": "2023-08-07T16:11:55.414Z",
+        "updated_at": "2023-08-07T19:00:09.062Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15976186-cb17-4e89-a583-579a534d88d3",
+        "name": "Cultural Immersion",
+        "created_at": "2023-08-08T01:07:59.747Z",
+        "updated_at": "2023-08-07T19:46:33.280Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f4b3f8c-390e-4fb3-b136-26d88d38ca1b",
+        "name": "Wildlife Safari",
+        "created_at": "2023-08-07T07:51:45.978Z",
+        "updated_at": "2023-08-07T20:46:37.269Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "expense": [
+      {
+        "id": "25dbd153-cedc-4cb0-85b9-a53757d43b68",
+        "amount": 88377,
+        "created_at": "2023-08-07T22:29:48.654Z",
+        "updated_at": "2023-08-07T09:39:49.890Z",
+        "trip_id": "30e4ad8c-2b8a-46c9-acdb-7e33049edf2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e165917-c4d5-4f05-94ba-87d6983557b1",
+        "amount": 32718,
+        "created_at": "2023-08-07T22:03:34.592Z",
+        "updated_at": "2023-08-08T01:38:47.721Z",
+        "trip_id": "15976186-cb17-4e89-a583-579a534d88d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b346ad5b-bbf9-4739-8d56-1f683f409e3a",
+        "amount": 10019,
+        "created_at": "2023-08-07T05:38:57.138Z",
+        "updated_at": "2023-08-07T12:41:37.193Z",
+        "trip_id": "13576b3e-2991-4280-bd86-1b8107e3d4ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "851f139e-f00b-485f-ba58-66e4c6b453e9",
+        "amount": 89838,
+        "created_at": "2023-08-07T12:42:22.719Z",
+        "updated_at": "2023-08-07T23:39:28.387Z",
+        "trip_id": "8f4b3f8c-390e-4fb3-b136-26d88d38ca1b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ea187e0-94e2-4122-ad8a-1fe45e7b24e1",
+        "amount": 98926,
+        "created_at": "2023-08-07T21:40:10.998Z",
+        "updated_at": "2023-08-07T11:27:59.811Z",
+        "trip_id": "15976186-cb17-4e89-a583-579a534d88d3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "de17d721-28de-4d2d-aa5b-2ff7e7d3edf2",
+        "name": "Annual Gala",
+        "created_at": "2023-08-07T06:05:16.545Z",
+        "updated_at": "2023-08-07T20:18:23.267Z",
+        "trip_id": "834076e2-edaf-4195-bf30-3c5203042efe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "85d3ddcb-5105-4c4d-8cf2-0507de178371",
+        "name": "Tech Conference",
+        "created_at": "2023-08-07T04:35:40.884Z",
+        "updated_at": "2023-08-07T05:59:52.042Z",
+        "trip_id": "8f4b3f8c-390e-4fb3-b136-26d88d38ca1b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "904eec10-cba7-4c70-a121-d675e392c5f5",
+        "name": "Business Summit",
+        "created_at": "2023-08-07T13:42:50.751Z",
+        "updated_at": "2023-08-07T11:05:11.622Z",
+        "trip_id": "30e4ad8c-2b8a-46c9-acdb-7e33049edf2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7969ff2f-4fee-4af5-a52a-9e591e60d405",
+        "name": "Fashion Show",
+        "created_at": "2023-08-07T03:51:34.697Z",
+        "updated_at": "2023-08-07T04:37:10.636Z",
+        "trip_id": "13576b3e-2991-4280-bd86-1b8107e3d4ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f684915a-21d1-48b8-b1b2-16a192ddf574",
+        "name": "Medical Symposium",
+        "created_at": "2023-08-07T15:23:34.792Z",
+        "updated_at": "2023-08-08T00:39:17.969Z",
+        "trip_id": "8f4b3f8c-390e-4fb3-b136-26d88d38ca1b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "895b6c14-fc6f-45b6-90f0-b2ab28dc68f3",
+        "created_at": "2023-08-07T08:01:58.933Z",
+        "updated_at": "2023-08-07T12:25:48.737Z",
+        "trip_id": "13576b3e-2991-4280-bd86-1b8107e3d4ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66a60acc-5a91-4293-ad02-afbfe04b2fb1",
+        "created_at": "2023-08-07T06:34:11.719Z",
+        "updated_at": "2023-08-07T19:58:53.049Z",
+        "trip_id": "13576b3e-2991-4280-bd86-1b8107e3d4ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "271e7f11-f422-4f07-9589-29f00c3ae3b7",
+        "created_at": "2023-08-07T05:53:56.522Z",
+        "updated_at": "2023-08-07T03:24:21.844Z",
+        "trip_id": "30e4ad8c-2b8a-46c9-acdb-7e33049edf2e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd4c2564-e3be-4b8b-9d3b-51c6ec87ca5e",
+        "created_at": "2023-08-07T16:33:05.230Z",
+        "updated_at": "2023-08-07T10:08:45.694Z",
+        "trip_id": "15976186-cb17-4e89-a583-579a534d88d3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e40b664-78d9-4922-97b6-d33ed4b6a6c5",
+        "created_at": "2023-08-07T10:31:05.524Z",
+        "updated_at": "2023-08-07T09:54:48.583Z",
+        "trip_id": "834076e2-edaf-4195-bf30-3c5203042efe",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "trip": [
+      {
+        "id": "bc73751e-cace-4fe2-a6bd-31ab07f1ca81",
+        "name": "Beach Getaway",
+        "created_at": "2023-08-07T20:47:24.282Z",
+        "updated_at": "2023-08-07T17:53:23.842Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f28dcce-b067-48ce-be8c-4a9596a23790",
+        "name": "Mountain Adventure",
+        "created_at": "2023-08-07T12:31:53.752Z",
+        "updated_at": "2023-08-07T12:21:31.482Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4f7a087-5495-4e78-b538-eaa8437889b6",
+        "name": "City Exploration",
+        "created_at": "2023-08-07T04:12:00.844Z",
+        "updated_at": "2023-08-07T12:22:28.548Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bc8c8ed-426e-49f6-b30e-d70a836b18fb",
+        "name": "Cultural Immersion",
+        "created_at": "2023-08-07T22:41:07.749Z",
+        "updated_at": "2023-08-07T22:12:19.082Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "071afc53-19bc-4aa8-863a-b1552df66eb9",
+        "name": "Wildlife Safari",
+        "created_at": "2023-08-07T19:13:31.734Z",
+        "updated_at": "2023-08-07T06:27:09.563Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "expense": [
+      {
+        "id": "73d94a19-23c5-4fb6-a8da-f488990f720c",
+        "amount": 41837,
+        "created_at": "2023-08-07T13:12:58.165Z",
+        "updated_at": "2023-08-07T04:15:31.665Z",
+        "trip_id": "b4f7a087-5495-4e78-b538-eaa8437889b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdb45789-2ace-4793-a306-0cbacccc5f52",
+        "amount": 243,
+        "created_at": "2023-08-07T02:44:59.174Z",
+        "updated_at": "2023-08-07T09:39:04.323Z",
+        "trip_id": "071afc53-19bc-4aa8-863a-b1552df66eb9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1f79a78d-ca30-4a75-b3bf-597b04a5656a",
+        "amount": 14436,
+        "created_at": "2023-08-07T12:56:59.446Z",
+        "updated_at": "2023-08-07T09:27:13.899Z",
+        "trip_id": "5f28dcce-b067-48ce-be8c-4a9596a23790",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17d026ac-8794-4a6c-91de-4fd1fc91cd17",
+        "amount": 95030,
+        "created_at": "2023-08-07T23:21:58.975Z",
+        "updated_at": "2023-08-07T06:51:27.343Z",
+        "trip_id": "071afc53-19bc-4aa8-863a-b1552df66eb9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3888fb18-25ed-4c6c-9500-81b1cf60f790",
+        "amount": 75283,
+        "created_at": "2023-08-07T16:38:15.467Z",
+        "updated_at": "2023-08-07T15:19:50.072Z",
+        "trip_id": "b4f7a087-5495-4e78-b538-eaa8437889b6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "32ebe653-5984-4f03-98bc-f1eb3eadbe75",
+        "name": "Music Festival",
+        "created_at": "2023-08-07T10:45:22.244Z",
+        "updated_at": "2023-08-08T01:32:47.757Z",
+        "trip_id": "071afc53-19bc-4aa8-863a-b1552df66eb9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9636392c-27aa-458b-92f9-4f217862a0b1",
+        "name": "Art Exhibition",
+        "created_at": "2023-08-07T16:18:29.075Z",
+        "updated_at": "2023-08-07T05:11:01.968Z",
+        "trip_id": "6bc8c8ed-426e-49f6-b30e-d70a836b18fb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "373b416c-2108-4427-872d-125f21bd052b",
+        "name": "Sports Tournament",
+        "created_at": "2023-08-07T16:50:07.436Z",
+        "updated_at": "2023-08-07T09:26:09.776Z",
+        "trip_id": "bc73751e-cace-4fe2-a6bd-31ab07f1ca81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35036ebe-a1a4-487a-8d06-cb352be7d76a",
+        "name": "Charity Gala",
+        "created_at": "2023-08-07T10:34:02.495Z",
+        "updated_at": "2023-08-07T19:11:26.192Z",
+        "trip_id": "b4f7a087-5495-4e78-b538-eaa8437889b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "299ed8f6-a6e6-4659-96bc-278e26009e45",
+        "name": "Film Premiere",
+        "created_at": "2023-08-07T15:20:57.709Z",
+        "updated_at": "2023-08-07T04:40:24.870Z",
+        "trip_id": "5f28dcce-b067-48ce-be8c-4a9596a23790",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1b4631d9-a281-4927-9f62-2d4ccb70c5a6",
+        "created_at": "2023-08-07T10:09:44.663Z",
+        "updated_at": "2023-08-07T17:15:31.421Z",
+        "trip_id": "5f28dcce-b067-48ce-be8c-4a9596a23790",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aeefa46e-1f4e-460c-bd46-df961d877f9f",
+        "created_at": "2023-08-07T04:43:50.670Z",
+        "updated_at": "2023-08-08T01:45:48.404Z",
+        "trip_id": "071afc53-19bc-4aa8-863a-b1552df66eb9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d0627e4-e07d-4c27-937d-36b1b76f2dfb",
+        "created_at": "2023-08-07T08:12:30.920Z",
+        "updated_at": "2023-08-07T06:05:40.385Z",
+        "trip_id": "b4f7a087-5495-4e78-b538-eaa8437889b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9142579c-80ca-4018-9144-79eb4075a050",
+        "created_at": "2023-08-07T03:34:10.151Z",
+        "updated_at": "2023-08-07T14:33:49.924Z",
+        "trip_id": "bc73751e-cace-4fe2-a6bd-31ab07f1ca81",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2cf39ed-5811-4105-810f-151170f42b8d",
+        "created_at": "2023-08-07T13:35:48.425Z",
+        "updated_at": "2023-08-07T17:27:31.730Z",
+        "trip_id": "b4f7a087-5495-4e78-b538-eaa8437889b6",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "trip": [
+      {
+        "id": "3a1273b3-7c86-44c2-87f6-28f022f7a9e6",
+        "name": "Mountain Adventure",
+        "created_at": "2023-08-07T17:04:36.580Z",
+        "updated_at": "2023-08-07T04:53:17.077Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ed31389-79f3-4a32-8973-bd9488351c49",
+        "name": "Coastal Getaway",
+        "created_at": "2023-08-07T23:30:49.805Z",
+        "updated_at": "2023-08-07T10:19:41.120Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c2132cb3-73e2-4940-82ae-ebe91dd293f0",
+        "name": "City Exploration",
+        "created_at": "2023-08-07T19:51:00.714Z",
+        "updated_at": "2023-08-07T11:32:37.582Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9263086-88ca-4352-9cf7-00b397fdab1c",
+        "name": "Wildlife Safari",
+        "created_at": "2023-08-07T06:31:18.569Z",
+        "updated_at": "2023-08-07T11:56:36.510Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fc9bc46-18f0-4b8f-937e-6ed7416c83dd",
+        "name": "Cultural Immersion",
+        "created_at": "2023-08-07T21:27:47.224Z",
+        "updated_at": "2023-08-08T01:26:08.990Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "expense": [
+      {
+        "id": "28cff886-387c-433a-9791-e325e815390c",
+        "amount": 57526,
+        "created_at": "2023-08-07T11:17:26.094Z",
+        "updated_at": "2023-08-08T01:31:12.829Z",
+        "trip_id": "e9263086-88ca-4352-9cf7-00b397fdab1c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c30ffaaf-0ef6-421f-b61c-783c454c164d",
+        "amount": 31895,
+        "created_at": "2023-08-07T04:02:22.662Z",
+        "updated_at": "2023-08-07T04:23:50.270Z",
+        "trip_id": "2ed31389-79f3-4a32-8973-bd9488351c49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8363b940-90e9-4da3-a87d-5786e3042290",
+        "amount": 65651,
+        "created_at": "2023-08-07T15:33:28.702Z",
+        "updated_at": "2023-08-07T19:39:01.146Z",
+        "trip_id": "0fc9bc46-18f0-4b8f-937e-6ed7416c83dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "862ccb13-a2df-4286-846b-71148d84f215",
+        "amount": 10302,
+        "created_at": "2023-08-07T21:27:45.414Z",
+        "updated_at": "2023-08-07T22:14:49.126Z",
+        "trip_id": "2ed31389-79f3-4a32-8973-bd9488351c49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b10f7a74-4429-4946-80f2-9917a0cd87b1",
+        "amount": 87716,
+        "created_at": "2023-08-07T06:25:40.501Z",
+        "updated_at": "2023-08-07T15:49:18.776Z",
+        "trip_id": "e9263086-88ca-4352-9cf7-00b397fdab1c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "fdb5e60b-6552-4672-9eb9-d91a96ba5857",
+        "name": "Annual Gala",
+        "created_at": "2023-08-07T12:49:55.879Z",
+        "updated_at": "2023-08-07T11:30:19.918Z",
+        "trip_id": "3a1273b3-7c86-44c2-87f6-28f022f7a9e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51149c40-22c7-4fc2-a693-9185b0fc70da",
+        "name": "Industry Conference",
+        "created_at": "2023-08-07T11:34:18.819Z",
+        "updated_at": "2023-08-07T08:45:27.091Z",
+        "trip_id": "3a1273b3-7c86-44c2-87f6-28f022f7a9e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af293b9a-3b6c-4a02-ac3a-8962944de80b",
+        "name": "Charity Run",
+        "created_at": "2023-08-07T12:53:09.288Z",
+        "updated_at": "2023-08-07T22:54:25.738Z",
+        "trip_id": "3a1273b3-7c86-44c2-87f6-28f022f7a9e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15a3c193-8a5d-4977-b282-d0a9ed5671aa",
+        "name": "Art Exhibition",
+        "created_at": "2023-08-07T10:36:13.894Z",
+        "updated_at": "2023-08-07T08:52:29.037Z",
+        "trip_id": "3a1273b3-7c86-44c2-87f6-28f022f7a9e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14a589ab-a429-4abb-ba84-6c3aa00188b6",
+        "name": "Music Festival",
+        "created_at": "2023-08-07T16:52:17.411Z",
+        "updated_at": "2023-08-07T11:06:31.381Z",
+        "trip_id": "2ed31389-79f3-4a32-8973-bd9488351c49",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "65a8f24e-0acf-46a9-a327-166a33682a35",
+        "created_at": "2023-08-07T17:31:04.463Z",
+        "updated_at": "2023-08-07T03:44:24.183Z",
+        "trip_id": "3a1273b3-7c86-44c2-87f6-28f022f7a9e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a26819d-e7da-48b4-837c-88b7bc219348",
+        "created_at": "2023-08-08T00:29:50.064Z",
+        "updated_at": "2023-08-07T11:47:34.926Z",
+        "trip_id": "c2132cb3-73e2-4940-82ae-ebe91dd293f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "461cd8f3-2f5d-4211-817e-93c2aaa550ac",
+        "created_at": "2023-08-07T15:21:36.651Z",
+        "updated_at": "2023-08-07T02:33:12.836Z",
+        "trip_id": "0fc9bc46-18f0-4b8f-937e-6ed7416c83dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "883824e0-0eba-4273-9627-22a97c2787ac",
+        "created_at": "2023-08-07T15:31:45.243Z",
+        "updated_at": "2023-08-07T16:51:00.627Z",
+        "trip_id": "0fc9bc46-18f0-4b8f-937e-6ed7416c83dd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f052320-8634-4c8d-ace4-654a32b80541",
+        "created_at": "2023-08-07T19:05:47.504Z",
+        "updated_at": "2023-08-07T11:23:11.475Z",
+        "trip_id": "0fc9bc46-18f0-4b8f-937e-6ed7416c83dd",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "trip": [
+      {
+        "id": "c1882212-2338-4ceb-85b7-589c978dd961",
+        "name": "Mountain Adventure",
+        "created_at": "2023-08-07T18:40:13.939Z",
+        "updated_at": "2023-08-07T23:11:12.787Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b173735-45ca-4575-90a7-6db37a954a70",
+        "name": "Coastal Getaway",
+        "created_at": "2023-08-07T04:40:55.654Z",
+        "updated_at": "2023-08-07T11:03:49.583Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee96b3a9-996c-4a14-ab90-76c72dc7a338",
+        "name": "City Exploration",
+        "created_at": "2023-08-07T03:54:13.824Z",
+        "updated_at": "2023-08-08T01:30:42.403Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a46a0f9-b970-41a5-9f3d-f9d472336683",
+        "name": "Wildlife Safari",
+        "created_at": "2023-08-07T07:29:20.763Z",
+        "updated_at": "2023-08-07T08:41:02.524Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "243d43fa-fea3-436f-884a-ad2962a49c20",
+        "name": "Cultural Immersion",
+        "created_at": "2023-08-07T12:14:11.776Z",
+        "updated_at": "2023-08-07T22:49:10.583Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "expense": [
+      {
+        "id": "7e416fa1-afcc-4e61-8eb2-b14d8b3becaa",
+        "amount": 98197,
+        "created_at": "2023-08-07T21:47:21.276Z",
+        "updated_at": "2023-08-07T13:38:03.289Z",
+        "trip_id": "6b173735-45ca-4575-90a7-6db37a954a70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cda7cbaf-ed2c-4a77-8f75-81b064f766b9",
+        "amount": 87410,
+        "created_at": "2023-08-07T15:38:46.305Z",
+        "updated_at": "2023-08-07T20:33:15.745Z",
+        "trip_id": "c1882212-2338-4ceb-85b7-589c978dd961",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "faa78851-cc28-4c96-a8e8-e80999354da8",
+        "amount": 65485,
+        "created_at": "2023-08-07T10:05:21.560Z",
+        "updated_at": "2023-08-07T04:52:29.965Z",
+        "trip_id": "c1882212-2338-4ceb-85b7-589c978dd961",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e895d579-2b06-40f4-a0ed-2623ac919dc8",
+        "amount": 81086,
+        "created_at": "2023-08-07T11:42:39.051Z",
+        "updated_at": "2023-08-07T17:44:55.985Z",
+        "trip_id": "6b173735-45ca-4575-90a7-6db37a954a70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb3831d9-9f27-4f0c-8396-b0b16e4e7cd4",
+        "amount": 20186,
+        "created_at": "2023-08-07T10:48:26.403Z",
+        "updated_at": "2023-08-07T05:51:51.487Z",
+        "trip_id": "ee96b3a9-996c-4a14-ab90-76c72dc7a338",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "c394b6ad-980c-4979-981a-8eb102e1c9e8",
+        "name": "Annual Gala",
+        "created_at": "2023-08-07T17:21:01.896Z",
+        "updated_at": "2023-08-07T21:21:13.142Z",
+        "trip_id": "243d43fa-fea3-436f-884a-ad2962a49c20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1682688-e767-49e1-9acd-0e4b3691f052",
+        "name": "Industry Conference",
+        "created_at": "2023-08-07T10:59:47.167Z",
+        "updated_at": "2023-08-07T12:30:45.115Z",
+        "trip_id": "243d43fa-fea3-436f-884a-ad2962a49c20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "596b868d-fe43-42f1-9700-c6cb8e975d9a",
+        "name": "Charity Run",
+        "created_at": "2023-08-07T16:10:48.452Z",
+        "updated_at": "2023-08-07T20:22:31.171Z",
+        "trip_id": "c1882212-2338-4ceb-85b7-589c978dd961",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00c69b2e-ddc3-4fef-84fe-b3c4ce53d9ad",
+        "name": "Art Exhibition",
+        "created_at": "2023-08-07T16:33:20.180Z",
+        "updated_at": "2023-08-07T18:30:07.577Z",
+        "trip_id": "c1882212-2338-4ceb-85b7-589c978dd961",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe2e454e-a40b-4e60-ac78-548c8975c210",
+        "name": "Music Festival",
+        "created_at": "2023-08-07T03:02:38.316Z",
+        "updated_at": "2023-08-07T15:54:53.891Z",
+        "trip_id": "243d43fa-fea3-436f-884a-ad2962a49c20",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "47a5f12b-f7a5-47dd-8008-baa0110e63a7",
+        "created_at": "2023-08-07T10:35:18.876Z",
+        "updated_at": "2023-08-07T04:01:09.658Z",
+        "trip_id": "6b173735-45ca-4575-90a7-6db37a954a70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2344d51d-7523-424e-9382-02b3c6237546",
+        "created_at": "2023-08-07T03:54:59.015Z",
+        "updated_at": "2023-08-07T10:42:53.065Z",
+        "trip_id": "6b173735-45ca-4575-90a7-6db37a954a70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8327aa5-1406-4a4d-b9bc-cf0c83ef4920",
+        "created_at": "2023-08-07T22:33:20.131Z",
+        "updated_at": "2023-08-07T19:03:55.073Z",
+        "trip_id": "ee96b3a9-996c-4a14-ab90-76c72dc7a338",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7341af4f-7665-4610-80e0-4713b233e475",
+        "created_at": "2023-08-07T21:30:41.961Z",
+        "updated_at": "2023-08-07T06:48:38.669Z",
+        "trip_id": "243d43fa-fea3-436f-884a-ad2962a49c20",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72a1bc0a-b269-43a5-9532-7e637bb5386b",
+        "created_at": "2023-08-07T16:23:21.017Z",
+        "updated_at": "2023-08-07T08:49:20.126Z",
+        "trip_id": "c1882212-2338-4ceb-85b7-589c978dd961",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "trip": [
+      {
+        "id": "84aac5a0-a218-45ae-a0f2-5b882b4b191c",
+        "name": "Mountain Adventure",
+        "created_at": "2023-08-07T02:57:55.380Z",
+        "updated_at": "2023-08-07T11:04:03.366Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1d846a2-f939-4818-9e93-10933cd9cd4d",
+        "name": "Coastal Getaway",
+        "created_at": "2023-08-07T04:44:21.035Z",
+        "updated_at": "2023-08-07T16:19:19.851Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee19262d-e3de-4d86-9e46-1e9bd48501f9",
+        "name": "City Exploration",
+        "created_at": "2023-08-07T18:08:23.877Z",
+        "updated_at": "2023-08-07T16:55:10.418Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c88e943-2ca1-482b-8225-bee0b20b6070",
+        "name": "Wildlife Safari",
+        "created_at": "2023-08-07T08:38:17.301Z",
+        "updated_at": "2023-08-07T08:56:12.910Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e4a99de-2800-455c-8cdf-ea28fd7d4897",
+        "name": "Cultural Immersion",
+        "created_at": "2023-08-07T07:16:30.588Z",
+        "updated_at": "2023-08-07T19:31:51.459Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "expense": [
+      {
+        "id": "ee6bd269-44a8-4174-82dc-42e35ac8fec5",
+        "amount": 34346,
+        "created_at": "2023-08-07T10:22:27.030Z",
+        "updated_at": "2023-08-07T12:27:19.849Z",
+        "trip_id": "0e4a99de-2800-455c-8cdf-ea28fd7d4897",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9dc8b08c-44fa-4d66-84df-5066055784d5",
+        "amount": 31593,
+        "created_at": "2023-08-07T17:58:16.833Z",
+        "updated_at": "2023-08-07T04:33:02.199Z",
+        "trip_id": "ee19262d-e3de-4d86-9e46-1e9bd48501f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13cd5c91-797d-4058-b0d5-dda4e9c605c3",
+        "amount": 34541,
+        "created_at": "2023-08-08T02:01:47.522Z",
+        "updated_at": "2023-08-07T07:56:35.477Z",
+        "trip_id": "0e4a99de-2800-455c-8cdf-ea28fd7d4897",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fce5eaf-a25b-430a-8fef-3d00071be766",
+        "amount": 7114,
+        "created_at": "2023-08-07T10:39:32.183Z",
+        "updated_at": "2023-08-07T10:21:03.157Z",
+        "trip_id": "84aac5a0-a218-45ae-a0f2-5b882b4b191c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9da65292-1462-401a-b36f-98bf6391f592",
+        "amount": 17883,
+        "created_at": "2023-08-07T18:54:02.570Z",
+        "updated_at": "2023-08-08T00:05:04.410Z",
+        "trip_id": "ee19262d-e3de-4d86-9e46-1e9bd48501f9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "338769b3-7d97-476b-ad15-cf32cdc8ba3f",
+        "name": "Annual Conference",
+        "created_at": "2023-08-07T14:07:17.161Z",
+        "updated_at": "2023-08-07T16:23:04.328Z",
+        "trip_id": "2c88e943-2ca1-482b-8225-bee0b20b6070",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fe38f76-9aea-4aa8-823b-230709d83792",
+        "name": "Charity Gala",
+        "created_at": "2023-08-07T09:13:04.656Z",
+        "updated_at": "2023-08-07T05:04:42.599Z",
+        "trip_id": "d1d846a2-f939-4818-9e93-10933cd9cd4d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9636134-42d5-4d60-9f96-234830de8135",
+        "name": "Product Launch",
+        "created_at": "2023-08-07T03:16:47.825Z",
+        "updated_at": "2023-08-07T03:23:03.025Z",
+        "trip_id": "84aac5a0-a218-45ae-a0f2-5b882b4b191c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ebfc6a88-655f-40c1-b35e-79d8ff187483",
+        "name": "Music Festival",
+        "created_at": "2023-08-07T19:19:34.845Z",
+        "updated_at": "2023-08-07T19:51:05.634Z",
+        "trip_id": "84aac5a0-a218-45ae-a0f2-5b882b4b191c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43c60f47-cfd0-4717-9a4d-6c137ab4b37e",
+        "name": "Art Exhibition",
+        "created_at": "2023-08-07T17:03:31.832Z",
+        "updated_at": "2023-08-07T05:42:32.348Z",
+        "trip_id": "d1d846a2-f939-4818-9e93-10933cd9cd4d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f5eba87b-cbaa-4383-a183-bbc9969c66dc",
+        "created_at": "2023-08-07T17:11:57.790Z",
+        "updated_at": "2023-08-07T18:26:27.012Z",
+        "trip_id": "0e4a99de-2800-455c-8cdf-ea28fd7d4897",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "289eaf21-d037-428a-8b94-42ace401fbf9",
+        "created_at": "2023-08-07T19:31:05.456Z",
+        "updated_at": "2023-08-07T03:47:03.385Z",
+        "trip_id": "0e4a99de-2800-455c-8cdf-ea28fd7d4897",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d63047f-fccd-4477-b0fe-aad14f250aac",
+        "created_at": "2023-08-07T03:58:23.906Z",
+        "updated_at": "2023-08-07T11:57:14.041Z",
+        "trip_id": "2c88e943-2ca1-482b-8225-bee0b20b6070",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4dda384-58e0-4110-997a-8dc6cbca4c5b",
+        "created_at": "2023-08-07T03:11:46.408Z",
+        "updated_at": "2023-08-07T04:34:44.585Z",
+        "trip_id": "ee19262d-e3de-4d86-9e46-1e9bd48501f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c40f7b55-859d-4f8b-b7e7-0e02a516f5f6",
+        "created_at": "2023-08-07T09:02:31.843Z",
+        "updated_at": "2023-08-07T03:38:08.936Z",
+        "trip_id": "0e4a99de-2800-455c-8cdf-ea28fd7d4897",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "trip": [
+      {
+        "id": "7d9905bf-d5ff-4bd5-9303-53b4f77352b6",
+        "name": "Mountain Adventure",
+        "created_at": "2023-08-07T05:35:03.455Z",
+        "updated_at": "2023-08-07T21:13:58.173Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "171d77a9-f662-4428-aeea-a31e5be249ef",
+        "name": "Coastal Getaway",
+        "created_at": "2023-08-08T00:28:36.628Z",
+        "updated_at": "2023-08-07T15:35:54.702Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3756fd38-68b8-4ddd-8799-e55fabc26bb1",
+        "name": "City Exploration",
+        "created_at": "2023-08-07T03:51:23.954Z",
+        "updated_at": "2023-08-07T23:37:55.536Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e1f906b-8ecf-49b2-8468-92eac85e13bd",
+        "name": "Wildlife Safari",
+        "created_at": "2023-08-07T17:51:58.386Z",
+        "updated_at": "2023-08-07T08:19:32.267Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5047f575-ed34-48ad-90be-c49cfd5aceec",
+        "name": "Cultural Immersion",
+        "created_at": "2023-08-07T08:00:52.094Z",
+        "updated_at": "2023-08-07T04:12:37.559Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "expense": [
+      {
+        "id": "a0aa7a4f-22f0-4d98-a61a-9e000cee19c9",
+        "amount": 91039,
+        "created_at": "2023-08-07T14:07:05.569Z",
+        "updated_at": "2023-08-07T19:39:47.744Z",
+        "trip_id": "3756fd38-68b8-4ddd-8799-e55fabc26bb1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04045346-630c-4335-98a2-c29c89c477ef",
+        "amount": 81613,
+        "created_at": "2023-08-07T22:52:26.003Z",
+        "updated_at": "2023-08-07T17:27:08.208Z",
+        "trip_id": "3756fd38-68b8-4ddd-8799-e55fabc26bb1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e103714c-4264-43f7-be7f-c8bfaa8769ed",
+        "amount": 91486,
+        "created_at": "2023-08-07T19:59:09.584Z",
+        "updated_at": "2023-08-07T03:04:00.324Z",
+        "trip_id": "2e1f906b-8ecf-49b2-8468-92eac85e13bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75214230-d302-4fe2-af1f-889627af109b",
+        "amount": 51956,
+        "created_at": "2023-08-07T05:31:02.669Z",
+        "updated_at": "2023-08-07T06:33:11.184Z",
+        "trip_id": "5047f575-ed34-48ad-90be-c49cfd5aceec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cf45d38-0451-4475-be0f-50656025f5fb",
+        "amount": 91099,
+        "created_at": "2023-08-07T05:42:49.774Z",
+        "updated_at": "2023-08-07T12:49:59.129Z",
+        "trip_id": "7d9905bf-d5ff-4bd5-9303-53b4f77352b6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "2c75609f-ca44-4557-97b7-bb7dd46f8234",
+        "name": "Annual Charity Gala",
+        "created_at": "2023-08-07T22:29:39.417Z",
+        "updated_at": "2023-08-07T22:11:46.847Z",
+        "trip_id": "2e1f906b-8ecf-49b2-8468-92eac85e13bd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0897ad2-0251-4e08-93cf-efddc4ffee84",
+        "name": "Tech Conference",
+        "created_at": "2023-08-07T02:53:40.041Z",
+        "updated_at": "2023-08-07T05:45:11.939Z",
+        "trip_id": "7d9905bf-d5ff-4bd5-9303-53b4f77352b6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a91faa5d-466c-4cf5-8035-355c0618c445",
+        "name": "Business Networking Mixer",
+        "created_at": "2023-08-07T23:15:17.459Z",
+        "updated_at": "2023-08-08T00:53:29.827Z",
+        "trip_id": "5047f575-ed34-48ad-90be-c49cfd5aceec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c626cd2-d988-4a03-8671-7f49f49006f7",
+        "name": "Fashion Show",
+        "created_at": "2023-08-07T16:13:29.097Z",
+        "updated_at": "2023-08-07T08:20:26.312Z",
+        "trip_id": "171d77a9-f662-4428-aeea-a31e5be249ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8239236a-317a-424e-8b7e-43f0918f6205",
+        "name": "Renewable Energy Symposium",
+        "created_at": "2023-08-07T21:18:14.375Z",
+        "updated_at": "2023-08-08T02:12:06.262Z",
+        "trip_id": "171d77a9-f662-4428-aeea-a31e5be249ef",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "ee51a4e0-3cb5-43e8-bbd2-856d83acb94e",
+        "created_at": "2023-08-07T22:48:17.185Z",
+        "updated_at": "2023-08-07T15:01:10.205Z",
+        "trip_id": "171d77a9-f662-4428-aeea-a31e5be249ef",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "582a98a4-86ad-4f34-a54b-1bd705357a0e",
+        "created_at": "2023-08-07T13:17:45.614Z",
+        "updated_at": "2023-08-07T04:47:54.330Z",
+        "trip_id": "5047f575-ed34-48ad-90be-c49cfd5aceec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "285e755d-9df7-477b-a833-38159030dd0c",
+        "created_at": "2023-08-07T11:39:55.734Z",
+        "updated_at": "2023-08-07T07:06:16.895Z",
+        "trip_id": "5047f575-ed34-48ad-90be-c49cfd5aceec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4124681e-e10e-43b8-90b4-6d173a8442e9",
+        "created_at": "2023-08-08T01:42:16.538Z",
+        "updated_at": "2023-08-08T00:13:11.228Z",
+        "trip_id": "5047f575-ed34-48ad-90be-c49cfd5aceec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4feb2497-0f6c-47f7-b58d-637d75555768",
+        "created_at": "2023-08-07T11:17:56.888Z",
+        "updated_at": "2023-08-08T01:27:38.630Z",
+        "trip_id": "171d77a9-f662-4428-aeea-a31e5be249ef",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "trip": [
+      {
+        "id": "f1d0092e-9efb-4ac9-96f0-6cf72aeede32",
+        "name": "Mountain Adventure",
+        "created_at": "2023-08-07T15:42:31.727Z",
+        "updated_at": "2023-08-08T01:11:00.067Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "916244cb-0b08-43e5-88c0-6b52eff6325f",
+        "name": "Beach Getaway",
+        "created_at": "2023-08-08T00:23:27.178Z",
+        "updated_at": "2023-08-07T09:49:06.428Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c023ea98-acea-46da-872e-3b6a3740fa5f",
+        "name": "City Exploration",
+        "created_at": "2023-08-07T12:31:09.578Z",
+        "updated_at": "2023-08-07T02:28:39.622Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76dd5acf-8327-4994-9685-1d5a85e6c223",
+        "name": "Cultural Immersion",
+        "created_at": "2023-08-07T12:29:20.131Z",
+        "updated_at": "2023-08-07T22:32:47.952Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74ae8733-11d8-4890-ba4e-65adf0d6a059",
+        "name": "Wildlife Safari",
+        "created_at": "2023-08-07T13:30:48.809Z",
+        "updated_at": "2023-08-07T10:56:16.535Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "expense": [
+      {
+        "id": "01d1d14d-2dc5-41e1-88cc-6048969348c3",
+        "amount": 84833,
+        "created_at": "2023-08-07T15:59:07.827Z",
+        "updated_at": "2023-08-07T22:05:26.848Z",
+        "trip_id": "c023ea98-acea-46da-872e-3b6a3740fa5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "157a9c16-3bc9-4145-9100-ad5c158b0588",
+        "amount": 45327,
+        "created_at": "2023-08-07T03:38:55.639Z",
+        "updated_at": "2023-08-07T12:24:36.424Z",
+        "trip_id": "74ae8733-11d8-4890-ba4e-65adf0d6a059",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b03cc79-f167-4713-b143-21c94040c47f",
+        "amount": 9483,
+        "created_at": "2023-08-07T09:24:39.996Z",
+        "updated_at": "2023-08-07T14:00:04.681Z",
+        "trip_id": "916244cb-0b08-43e5-88c0-6b52eff6325f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b2bc3cb-bff1-43df-b377-0e870e9b9417",
+        "amount": 4653,
+        "created_at": "2023-08-07T07:21:41.835Z",
+        "updated_at": "2023-08-07T11:47:38.879Z",
+        "trip_id": "76dd5acf-8327-4994-9685-1d5a85e6c223",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1bd3e0d-85ba-447e-a249-5c48ef4bc4c5",
+        "amount": 81648,
+        "created_at": "2023-08-07T05:37:31.142Z",
+        "updated_at": "2023-08-07T08:35:32.851Z",
+        "trip_id": "76dd5acf-8327-4994-9685-1d5a85e6c223",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "0479f8dd-b5c6-41cf-8aa9-08f7b26303b5",
+        "name": "Annual Gala",
+        "created_at": "2023-08-07T09:16:12.632Z",
+        "updated_at": "2023-08-07T22:35:23.499Z",
+        "trip_id": "916244cb-0b08-43e5-88c0-6b52eff6325f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "82ed17a4-32c2-4bee-974b-cf579d3f13d1",
+        "name": "Tech Conference",
+        "created_at": "2023-08-07T03:07:45.421Z",
+        "updated_at": "2023-08-07T17:12:56.319Z",
+        "trip_id": "c023ea98-acea-46da-872e-3b6a3740fa5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "279ad5cf-e3f7-4d3b-852c-876f7d3d8488",
+        "name": "Business Summit",
+        "created_at": "2023-08-07T19:38:46.092Z",
+        "updated_at": "2023-08-07T04:12:49.948Z",
+        "trip_id": "f1d0092e-9efb-4ac9-96f0-6cf72aeede32",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f5a05b8-85cd-4b80-b90b-6fdc23e3957a",
+        "name": "Fashion Show",
+        "created_at": "2023-08-07T13:39:39.688Z",
+        "updated_at": "2023-08-07T11:29:53.373Z",
+        "trip_id": "c023ea98-acea-46da-872e-3b6a3740fa5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f394def7-f38a-4fac-936c-a4ad65d579da",
+        "name": "Medical Symposium",
+        "created_at": "2023-08-07T20:34:42.902Z",
+        "updated_at": "2023-08-07T04:13:35.182Z",
+        "trip_id": "76dd5acf-8327-4994-9685-1d5a85e6c223",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "301b0084-b26c-410d-865d-80755465810b",
+        "created_at": "2023-08-07T18:35:04.142Z",
+        "updated_at": "2023-08-07T13:40:12.496Z",
+        "trip_id": "916244cb-0b08-43e5-88c0-6b52eff6325f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d10c159-c4c8-47d1-86fb-17ebe9384b12",
+        "created_at": "2023-08-07T10:46:08.019Z",
+        "updated_at": "2023-08-08T01:34:23.336Z",
+        "trip_id": "c023ea98-acea-46da-872e-3b6a3740fa5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fcd76e0-8443-4bba-9bf4-b03ca9ef4505",
+        "created_at": "2023-08-07T06:14:49.978Z",
+        "updated_at": "2023-08-07T11:13:33.136Z",
+        "trip_id": "c023ea98-acea-46da-872e-3b6a3740fa5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c19a2c47-a54b-4308-b79d-54fe7fe0f948",
+        "created_at": "2023-08-07T20:56:28.138Z",
+        "updated_at": "2023-08-07T20:54:17.480Z",
+        "trip_id": "c023ea98-acea-46da-872e-3b6a3740fa5f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed75d3e1-4bb8-4d6c-8e46-5d7e5a1eb939",
+        "created_at": "2023-08-07T10:50:49.779Z",
+        "updated_at": "2023-08-07T23:21:35.967Z",
+        "trip_id": "76dd5acf-8327-4994-9685-1d5a85e6c223",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  },
+  {
+    "trip": [
+      {
+        "id": "e8f3b4bb-4bad-4502-bf18-5ef7dc9fa77a",
+        "name": "Mountain Adventure",
+        "created_at": "2023-08-07T03:51:29.079Z",
+        "updated_at": "2023-08-07T06:06:10.152Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74980527-a807-4a2c-9ee8-965ebd081932",
+        "name": "Coastal Getaway",
+        "created_at": "2023-08-07T12:17:02.975Z",
+        "updated_at": "2023-08-07T10:23:35.924Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a08f8adf-bf2f-414c-a352-cbe7a1b25ca1",
+        "name": "City Exploration",
+        "created_at": "2023-08-07T10:54:36.297Z",
+        "updated_at": "2023-08-07T10:07:45.856Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7984a3a2-6a95-497a-b48a-cc5c89ea7bf3",
+        "name": "Wildlife Safari",
+        "created_at": "2023-08-07T09:27:57.540Z",
+        "updated_at": "2023-08-07T20:44:44.851Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8703f323-7ad5-46d5-b090-1cb2fa6434fa",
+        "name": "Cultural Immersion",
+        "created_at": "2023-08-07T11:29:23.887Z",
+        "updated_at": "2023-08-07T04:53:26.033Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "expense": [
+      {
+        "id": "2c635be9-5ecb-4b6b-bd5c-f2a629285c6e",
+        "amount": 770,
+        "created_at": "2023-08-08T01:36:54.816Z",
+        "updated_at": "2023-08-07T23:29:11.637Z",
+        "trip_id": "a08f8adf-bf2f-414c-a352-cbe7a1b25ca1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dfea631-7721-4954-a7d6-8dd2b283d401",
+        "amount": 68077,
+        "created_at": "2023-08-07T21:36:41.136Z",
+        "updated_at": "2023-08-08T00:14:46.357Z",
+        "trip_id": "a08f8adf-bf2f-414c-a352-cbe7a1b25ca1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54bb2910-c3ef-4ed1-990b-aeb6fa3a2723",
+        "amount": 32530,
+        "created_at": "2023-08-07T13:52:57.131Z",
+        "updated_at": "2023-08-07T21:14:50.076Z",
+        "trip_id": "7984a3a2-6a95-497a-b48a-cc5c89ea7bf3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9db3265b-599e-4b96-9133-94bf4a594c28",
+        "amount": 78788,
+        "created_at": "2023-08-07T17:54:01.738Z",
+        "updated_at": "2023-08-07T10:50:35.743Z",
+        "trip_id": "e8f3b4bb-4bad-4502-bf18-5ef7dc9fa77a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32a4d42d-7d59-4b29-8159-e02dce557540",
+        "amount": 9391,
+        "created_at": "2023-08-07T22:01:09.102Z",
+        "updated_at": "2023-08-07T19:45:59.380Z",
+        "trip_id": "7984a3a2-6a95-497a-b48a-cc5c89ea7bf3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "event": [
+      {
+        "id": "f970f0e9-93b0-41ac-9376-82c68068a8ae",
+        "name": "Annual Gala",
+        "created_at": "2023-08-08T02:10:08.615Z",
+        "updated_at": "2023-08-08T00:38:27.845Z",
+        "trip_id": "7984a3a2-6a95-497a-b48a-cc5c89ea7bf3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cde0333d-efbe-4f36-bd53-d8d9c7cf04d7",
+        "name": "Industry Conference",
+        "created_at": "2023-08-08T01:44:07.209Z",
+        "updated_at": "2023-08-07T23:10:09.214Z",
+        "trip_id": "8703f323-7ad5-46d5-b090-1cb2fa6434fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bbad536-82a9-4995-a163-eb77a5385e6a",
+        "name": "Charity Run",
+        "created_at": "2023-08-07T15:02:33.094Z",
+        "updated_at": "2023-08-07T14:01:23.916Z",
+        "trip_id": "8703f323-7ad5-46d5-b090-1cb2fa6434fa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9eb08b5c-53f6-455f-9efd-7ab09b439304",
+        "name": "Art Exhibition",
+        "created_at": "2023-08-07T05:52:52.348Z",
+        "updated_at": "2023-08-07T14:50:38.327Z",
+        "trip_id": "74980527-a807-4a2c-9ee8-965ebd081932",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec57c483-84c8-4a33-a63a-024007710694",
+        "name": "Music Festival",
+        "created_at": "2023-08-07T03:24:36.603Z",
+        "updated_at": "2023-08-07T08:40:03.647Z",
+        "trip_id": "8703f323-7ad5-46d5-b090-1cb2fa6434fa",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "9fa10f2b-ad43-4f24-8e50-7fdcf073b491",
+        "created_at": "2023-08-07T06:45:16.214Z",
+        "updated_at": "2023-08-07T19:50:07.936Z",
+        "trip_id": "e8f3b4bb-4bad-4502-bf18-5ef7dc9fa77a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "909700fd-bf02-49c6-a9ab-98a463a5c9d6",
+        "created_at": "2023-08-07T08:47:02.055Z",
+        "updated_at": "2023-08-07T20:38:35.469Z",
+        "trip_id": "7984a3a2-6a95-497a-b48a-cc5c89ea7bf3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "beef9c94-33c1-4ba6-8304-65b1f0d43475",
+        "created_at": "2023-08-07T18:49:27.599Z",
+        "updated_at": "2023-08-07T18:01:08.015Z",
+        "trip_id": "a08f8adf-bf2f-414c-a352-cbe7a1b25ca1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a94c2d8f-5f61-4546-8941-64bdab67ef73",
+        "created_at": "2023-08-07T14:43:15.400Z",
+        "updated_at": "2023-08-07T05:28:31.604Z",
+        "trip_id": "a08f8adf-bf2f-414c-a352-cbe7a1b25ca1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aeba442e-a39f-42b6-a775-cd911b81d19c",
+        "created_at": "2023-08-07T23:07:49.059Z",
+        "updated_at": "2023-08-07T09:29:48.668Z",
+        "trip_id": "a08f8adf-bf2f-414c-a352-cbe7a1b25ca1",
+        "user_id": "user_entity_pk"
+      }
+    ]
+  }
+]
